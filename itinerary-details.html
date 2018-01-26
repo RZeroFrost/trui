@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+        <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Travel Route</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <!--     Fonts and icons     -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <!-- CSS Files -->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+        <!-- CSS Just for demo purpose, don't include it in your project -->
+        <link href="./assets/css/demo.css" rel="stylesheet" />
+    </head>
+    <body class="index-page sidebar-collapse">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+            <div class="container">
+                <div class="navbar-translate">
+                    <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+                        ITINERARY DEMO EXAMPLE
+                    </a>
+                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+                                <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+                                <p>Download</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./documentation/tutorial-components.html" target="_blank">
+                                <i class="now-ui-icons files_paper"></i>
+                                <p>Components</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro" target="_blank">
+                                <i class="now-ui-icons arrows-1_share-66"></i>
+                                <p>Upgrade to PRO</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                                <p class="d-lg-none d-xl-none">Twitter</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                                <p class="d-lg-none d-xl-none">Facebook</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                                <p class="d-lg-none d-xl-none">Instagram</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <!--Main Canvas -->
+        <div class="wrapper">
+                <div class="page-header clear-filter" filter-color="orange">
+                        <div class="page-header-image" style="background-image: url('https://lono.si/ors_elive_pic/21deb2ff80533a80022c6562c42ce21d.JPEG');">
+                        </div>
+                </div>
+                <div class="main">
+                        <div class="section section-nucleo-icons">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <h2 class="title">Barcelona - Itinerary Sample</h2>
+                                            <h4> 4 Days, 3 Nights</h4>
+                                            <h5 class="description">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </h5>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="section section-tabs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="qa-day-list" id="walldays">
+                                        <div class="day-item" id="m16">
+                                            <div class="day-inner">
+                                                <div class="day-head clearfix">
+                                                    <div class="dayicon pull-left">
+                                                        <!-- PULL LEFT CLASS -->
+                                                    </div>
+                                                    <div class="day-detail">
+                                                        <h5 class="day-title">DAY 1 - ARRIVAL</h5>
+                                                        <div class="day-object-meta">
+                                                            <div class="day-object-header">
+                                                                <span class="qa-location-label">
+                                                                    <span class="qa-location-label-data">LOCATIONS:</span>
+                                                                </span>
+                                                                <span class="qa-location-where">
+                                                                    <span class="qa-location-where-data">
+                                                                        <a href="#">BARCELONA</a>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="qa-overnight-label">
+                                                                        <span class="qa-overnight-label-data">OVERNIGHT:</span>
+                                                                </span>
+                                                                <span class="qa-overnight-where">
+                                                                        <span class="qa-overnight-where-data">
+                                                                            <a href="#">BARCELONA</a>
+                                                                        </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="qa-day-contents">
+                                                   Yo!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="day-item" id="m16">
+                                                <div class="day-inner">
+                                                    <div class="day-head clearfix">
+                                                        <div class="dayicon pull-left">
+                                                            <!-- PULL LEFT CLASS -->
+                                                        </div>
+                                                        <div class="day-detail">
+                                                            <h5 class="day-title">DAY 2 - STUFF</h5>
+                                                            <div class="day-object-meta">
+                                                                <div class="day-object-header">
+                                                                    <span class="qa-location-label">
+                                                                        <span class="qa-location-label-data">LOCATIONS:</span>
+                                                                    </span>
+                                                                    <span class="qa-location-where">
+                                                                        <span class="qa-location-where-data">
+                                                                            <a href="#">BARCELONA</a>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="qa-overnight-label">
+                                                                            <span class="qa-overnight-label-data">OVERNIGHT:</span>
+                                                                    </span>
+                                                                    <span class="qa-overnight-where">
+                                                                            <span class="qa-overnight-where-data">
+                                                                                <a href="#">BARCELONA</a>
+                                                                            </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="qa-day-contents">
+                                                       Yo!
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  End Modal -->
+                    <footer class="footer" data-background-color="black">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li>
+                                         <a href="#">
+                                             TRAVEL ROUTE
+                                         </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Itineraries
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="copyright">
+                                &copy;
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>, Designed by
+                                <a href="#" target="_blank">Nik N</a>. Coded by
+                                <a href="#" target="_blank">Yauheni B</a>.
+                            </div>
+                        </div>
+                    </footer>
+        </div>
+        <!--End Main Canvas -->
+
+</html>
