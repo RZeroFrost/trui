@@ -5011,7 +5011,10 @@ Created using IcoMoon - icomoon.io
 }
 
 .card .card-body {
-    min-height: 190px;
+    min-height: 10px;
+}
+.card .card-body2 {
+    min-height: 150px;
 }
 
 .card[data-background-color="orange"] {
@@ -5147,6 +5150,10 @@ Created using IcoMoon - icomoon.io
 }
 
 .index-page .page-header {
+    height: 125vh;
+}
+
+.index-page .itinerary-header {
     height: 125vh;
 }
 
@@ -7641,4 +7648,27 @@ Created using IcoMoon - icomoon.io
     img2 {
      min-height: 40px;
      max-height: 40px;
+    }
+
+    .index-page .itinerary-header {
+        height: 100vh;
+    }
+    
+    .itinerary-header .itinerary-header-image {
+        position: absolute;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .itinerary-header {
+        height: 45vh;
+        max-height: 550px;
+        padding: 0;
+        color: #FFFFFF;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
     }
