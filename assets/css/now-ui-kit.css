@@ -5014,7 +5014,6 @@ Created using IcoMoon - icomoon.io
     min-height: 10px;
 }
 .card .card-body2 {
-    min-height: 150px;
 }
 
 .card[data-background-color="orange"] {
@@ -7546,11 +7545,11 @@ Created using IcoMoon - icomoon.io
     position: relative;
     }
     .day-item .day-inner {
-    background: #fff;
+    background: rgb(248, 248, 248);
     border: 1px solid #ddd;
+    position: relative;
     border-radius: 3px;
     padding: 10px;
-    position: relative;
     }
     .day-item .day-inner:before {
     border-right: 10px solid #ddd;
