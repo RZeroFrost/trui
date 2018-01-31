@@ -7671,3 +7671,31 @@ Created using IcoMoon - icomoon.io
         background-position: center center;
         background-size: cover;
     }
+    
+    /* New attempt at CSS */
+    .day-number{
+
+    }
+    #dayLocation{
+
+    }
+    #overnightLocation{
+        
+    }
+    .day-head{
+        background: #f8f8f8;
+    }
+
+   .event-container{
+       margin-top:20px;
+       margin-bottom: 20px;
+    }
+
+    .eventTime{
+        position: absolute;
+        top: 40%;
+    }
+
+    #event-image{
+        object-fit: cover;
+    }
